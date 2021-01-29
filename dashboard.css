@@ -1,0 +1,42 @@
+th {
+  font-size: 15px;
+  font-family : Sans-serif ; 
+  text-align: center ; 
+  background-color: red ; 
+  color: white;
+  word-wrap: break-word;
+  border-width: 0;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black ;
+  border-top: 1px solid black ; 
+}
+table {
+    table-layout : fixed;
+    width:100%;
+    background-color: #F2EBEB;
+    border-collapse: collapse;
+}
+td {
+  font-family : Sans-serif ; 
+  text-align: center; 
+  border-right: 1px solid black; 
+  border-bottom: 1px solid black ; 
+  border-spacing: 0;
+}
+
+table tr:nth-of-type(1) {background: white;}
+table tr:nth-of-type(2) {background: #F2EBEB;}
+table tr:nth-of-type(3) {background: white;}
+table tr:nth-of-type(4) {background: #F2EBEB;}
+table tr:nth-of-type(5) {background: white;}
+table tr:nth-of-type(6) {background: #F2EBEB;}
+table tr:nth-of-type(7) {background: white;}
+table tr:nth-of-type(8) {background: #F2EBEB;}
+table tr:nth-of-type(9) {background: white;}
+table th:nth-of-type(3) {width: 8%;margin-left: auto;margin-right: auto;}
+table th:nth-of-type(5) {width: 8%;margin-left: auto;margin-right: auto;}
+table th:nth-of-type(6) {width: 8%;margin-left: auto;margin-right: auto;}
+
+
+
+
